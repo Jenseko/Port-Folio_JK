@@ -156,7 +156,6 @@ article .portrait img{
     grid-column: 1/2;
     grid-row: 2/3;
     width: 40px;
-    
 }
 
 .section_tech_stack .img_css{
@@ -235,4 +234,108 @@ article .portrait img{
     width: 44px;
 }
 
-/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Section - Tech Stack ≈≈≈≈≈≈≈≈≈≈ */
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Section - Werdegang ≈≈≈≈≈≈≈≈≈≈ */
+
+.section_werdegang{
+    margin: 20vh 12%;
+}
+
+.section_werdegang .section_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(5, 20%);
+    gap: 5px;
+}
+
+.section_werdegang .section_grid .art_headlinepart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.section_werdegang .section_grid .art_headlinepart p{
+    color: #0f216a;
+}
+
+.section_werdegang .section_grid .art_headlinepart h5{
+    font-size: 4rem;
+}
+
+.section_werdegang .section_grid .art_headlinepart h6 {
+    font-size: 2rem;
+}
+
+.section_werdegang .section_grid div{
+    background-color: #0f216a;
+    padding: 15px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.section_werdegang .section_grid div h5{
+    font-size: 1.3rem;
+}
+
+.section_werdegang .section_grid div ul{
+    list-style: inside;
+}
+
+.section_werdegang .section_grid div p{
+    color: #fff;
+}
+
+.section_werdegang div:nth-of-type(4) ,
+.section_werdegang div:nth-of-type(5) ,
+.section_werdegang div:nth-of-type(6) {
+    background-color: rgb(17, 156, 207);
+}
+
+.section_werdegang .section_grid .art_h6_ausbildung {
+    font-size: 3rem;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.section_werdegang .section_grid .kachel01{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.section_werdegang .section_grid .kachel02{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.section_werdegang .section_grid .kachel03{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.section_werdegang .section_grid .kachel04{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.section_werdegang .section_grid .kachel05{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.section_werdegang .section_grid .kachel06{
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Section - Projekte ≈≈≈≈≈≈≈≈≈≈ */
+
+
+
+
+
+
