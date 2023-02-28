@@ -1,0 +1,238 @@
+
+/*===================================================
+                generals
+≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+/*==================================================*/
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Header ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+header .logo_header {
+    width: 15%;
+    border-radius: 80px;
+    margin: 10px;
+}
+
+header nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+header nav a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+header nav .button_contact{
+    color: rgb(17, 156, 207);
+    padding: 10px 20px 10px 20px;
+    background-color: #0f216a;
+    border: 1px solid #0f216a;
+    border-radius: 20px;
+}
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Article - Headline ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+article{
+    display:flex;
+    justify-content: space-around;
+}
+
+article .headline_part {
+    width: 50%;
+    margin: 30vh 10vw;
+}
+
+article .headline_part p{
+    color: #0f216a;
+
+}
+
+article .headline_part h1 {
+    font-size: 4rem;
+}
+
+article .headline_part p {
+    font-size: 1.6rem;
+}
+article .headline_part a {
+    color: rgb(17, 156, 207);
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: #0f216a;
+    border-radius: 20px;
+}
+
+article .portrait img{
+    width: 60%;
+    margin-top: 10vh;
+    box-shadow:10px 10px #0f216a;
+}
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Article - About ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+.article_about {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+.article_about .div_über_mich {
+    width: 40%;
+}
+
+.article_about .div_über_mich h5{
+    font-size: 6rem;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.article_about .div_infos {
+    width: 60%;
+}
+
+.article_about .div_infos p{
+    padding: 10px 0;
+}
+
+.article_about .div_infos .div_icons img{
+    width: 6%;
+    margin-right: 20px;
+}
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Section - Tech Stack ≈≈≈≈≈≈≈≈≈≈ */
+
+.section_tech_stack{
+    background-color: #0f216a;
+    display: grid;
+    grid-template-columns: repeat(7, 15%);
+    grid-template-rows: repeat(3, 45%);
+    padding: 10vh 12%;
+}
+
+.section_tech_stack h5{
+    color: white;
+    font-size: 5rem;
+    padding-top: 15px;
+}
+
+.section_tech_stack img{
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section_tech_stack h5{
+    grid-column: 1/8;
+    grid-row: 1/2;
+}
+
+.section_tech_stack .img_html{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 40px;
+    
+}
+
+.section_tech_stack .img_css{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 40px;
+}
+
+.section_tech_stack .img_js{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 52px;
+}
+
+.section_tech_stack .img_react{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 52px;
+}
+
+.section_tech_stack .img_figma{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    width: 30px;
+}
+
+.section_tech_stack .img_vscode{
+    grid-column: 6/7;
+    grid-row: 2/3;
+    width: 45px;
+}
+
+.section_tech_stack .img_wordpress{
+    grid-column: 7/8;
+    grid-row: 2/3;
+    width: 55px;
+}
+
+.section_tech_stack .img_vue{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 58px;
+}
+
+.section_tech_stack .img_angular{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 48px;
+}
+
+.section_tech_stack .img_docker{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.section_tech_stack .img_postman{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.section_tech_stack .img_express{
+    grid-column: 5/6;
+    grid-row: 3/4;
+    width: 56px;
+}
+
+.section_tech_stack .img_mongo{
+    grid-column: 6/7;
+    grid-row: 3/4;
+    width: 51px;
+}
+
+.section_tech_stack .img_node{
+    grid-column: 7/8;
+    grid-row: 3/4;
+    width: 44px;
+}
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Section - Tech Stack ≈≈≈≈≈≈≈≈≈≈ */
